@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How a Supreme Court Definition Erased 96.5% of India's Oldest Mountains</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+
+<div class="article-container">
+  <h1>How a Supreme Court Definition Erased 96.5% of India's Oldest Mountains</h1>
+  <p class="subtitle">An Analysis of the November 2025 Aravalli Ruling</p>
+  <p class="Author">Rushikesh Jadhav</p>
+  <p class="date">December 24, 2025</p>
+
+  <p>On November 20, 2025, the Supreme Court of India accepted a narrow definition of the Aravalli Hills, declaring that only landforms rising at least 100 meters above local terrain would qualify as protected "Aravalli Hills," with clusters of such hills within 500 meters forming an "Aravalli Range."  
+    <sup>
+        <a href="https://www.bbc.com/news/articles/cn5ln4wee7wo" target="_blank" rel="noopener">1</a>
+    </sup>
+   The ruling, which replaced decades of broader ecological protections, has triggered nationwide alarm among environmentalists and scientists. My geospatial analysis of the world's oldest mountain range reveals a stark reality: the new legal definition reduces the protected Aravalli landscape by 257,785 square kilometers, a 96.5% loss of what was previously recognized as part of this ancient ecological system. Where 267,009 km² of elevated terrain once fell under the traditional understanding of the Aravalli range, only 9,224 km² now qualifies under the Supreme Court's prominence-and-clustering criteria.</p>
+</div>
+
+<div class="interactive-section">
+  <div class="interactive-wrapper">
+    <p class="tool-subtitle">
+      <strong>Drag the slider to see cumulative area from west to east • Click anywhere on the map to move the slider</strong>
+    </p>
+    
+    <div id="map-container">
+      <div id="map">
+        <img id="left-map" src="assets/slider_image2_new.png" alt="Old Aravalli Definition">
+        <img id="right-map" src="assets/slider_image1_old.png" alt="New Aravalli Definition">
+        <div id="slider"></div>
+      </div>
+    </div>
+    
+    <div id="stats">
+      <div class="stat-box">
+        <span class="label">Old Aravalli Area</span>
+        <span class="value" id="old">0</span>
+        <span class="unit">km²</span>
+      </div>
+      <div class="stat-box">
+        <span class="label">New Protected Area</span>
+        <span class="value" id="new">0</span>
+        <span class="unit">km²</span>
+      </div>
+      <div class="stat-box">
+        <span class="label">Lost Aravalli Area</span>
+        <span class="value" id="lost">0</span>
+        <span class="unit">km²</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="article-container">
+  <p>The visualization above illustrates more than a technical redefinition; it represents what critics call an "administrative amputation" of one of the planet's most ancient geological formations. The nearly complete erasure of legal protection from low-lying ridges, eroded hillocks, and interconnected slopes fundamentally misunderstands how mountain ecosystems function. The Aravalli range, estimated at 3.2 billion years old, serves as a natural barrier preventing the Thar Desert from expanding eastward into the fertile Indo-Gangetic plains, while also functioning as a critical groundwater recharge zone
+     <sup>
+        <a href="https://timesofindia.indiatimes.com/life-style/travel/aravalli-hills-why-is-2-billion-year-old-mountain-range-is-in-news-and-the-reason-it-is-most-crucial-for-north-india/photostory/126116760.cms" target="_blank" rel="noopener">2</a>
+    </sup>. 
+    My analysis demonstrates that the Court's height-based threshold ignores the ecological reality that these "non-qualifying" areas form an inseparable continuum with the taller peaks. These are not separate terrain, but rather the supporting foundation, connecting corridors, and functional landscape that allows the entire system to prevent desertification, regulate climate, and sustain biodiversity across northwestern India.</p>
+</div>
+
+<div class="comparison-maps">
+  <h2 class="comparison-title">Complete Geographic Comparison in Single Map</h2>
+  <div class="maps-grid">
+    <div class="map-box">
+      <div class="map-title">Aravali Range - Pre Ruling (Blue + Pink) and Post (Pink) </div>
+      <img src="assets/pre_ruling.png" alt="Pre-ruling Aravalli protection map">
+      <div class="map-caption1">Traditional Definition (267,009 km²)</div>
+      <div class="map-caption2">New Court Definition (9,224 km²)</div>
+    </div>
+  </div>
+</div>
+
+<div class="article-container">
+  <h2>Methodology: Mapping the Mountains with Geospatial Science</h2>
+
+  <p>To quantify the impact of the Supreme Court's new definition, we conducted a comprehensive geospatial analysis using high-resolution satellite elevation data covering the Aravalli region across Rajasthan, Haryana, Gujarat, and Delhi. My approach combined advanced terrain analysis techniques with the specific legal criteria established in the November 2025 ruling to create a scientifically rigorous comparison between historical understandings of the range and its new legal boundaries.</p>
+
+  <p>My primary dataset came from OpenTopography's global COP30 Digital Elevation Model (DEM), a 30-meter resolution topographic map derived from satellite observations
+    <sup>
+        <a href="https://portal.opentopography.org/raster?opentopoID=OTSDEM.032021.4326.3" target="_blank" rel="noopener">3</a>
+    </sup>. 
+     This dataset covers the Aravalli study area spanning latitudes 24°N to 29°N and longitudes 72°E to 77°E—an analysis window of approximately 18,000 by 18,000 pixels providing precise elevation measurements for every 900 square meters of terrain. The COP30 represents a globally standardized elevation product ensuring consistent quality across the entire mountain range, eliminating regional variations that might skew results.</p>
+
+  <p>The Supreme Court's definition contains two distinct criteria that must both be satisfied: first, a prominence threshold requiring landforms to rise at least 100 meters above their surrounding terrain; second, a clustering requirement where such qualifying hills must be within 500 meters of other qualifying hills to form a protected "range." Implementing these rules required sophisticated spatial analysis techniques that go beyond simple elevation measurements.</p>
+
+  <p>For the prominence calculation 
+    <sup>
+        <a href="https://en.wikipedia.org/wiki/Topographic_prominence" target="_blank" rel="noopener">4</a>
+    </sup>, 
+    I employed a focal statistics approach that examines each pixel within the context of its neighborhood. For every 30-meter pixel in the dataset, we established a circular analysis window extending 2 kilometers in all directions, a scientifically appropriate scale for capturing meaningful topographic relationships in eroded, ancient mountain systems. Within each window, we calculated the minimum elevation using statistical filtering, then subtracted this local minimum from the pixel's actual elevation to determine its prominence value. This method, known in geomorphology as morphometric analysis, effectively identifies locations where terrain rises substantially above its immediate surroundings, precisely matching the legal definition's "elevation above local relief" criterion.</p>
+
+  <p>The clustering analysis proved more complex, requiring spatial connectivity algorithms to identify which prominent hills qualify as part of a continuous "range." We began with morphological dilation
+    <sup>
+        <a href="https://en.wikipedia.org/wiki/Dilation_(morphology)" target="_blank" rel="noopener">5</a>
+    </sup>, 
+    a mathematical operation borrowed from image processing that expands each qualifying hill pixel by a 500-meter radius, creating potential connectivity zones. This was followed by connected component labeling, a graph theory technique that identifies spatially contiguous groups. Any cluster containing two or more original prominent hill pixels within these expanded zones qualified as part of the Aravalli range under the Court's definition. This two-step process statistically validates range continuity while maintaining computational efficiency across the massive dataset.</p>
+
+  <p>For comparison, we established a "traditional definition" baseline using areas above 200 meters elevation as a proxy for the historically recognized Aravalli landscape. While the original Forest Survey of India protections incorporated additional factors like slope gradients and valley widths
+    <sup>
+        <a href="https://www.msn.com/en-in/news/India/aravalli-and-its-ranges-decoding-how-india-classifies-its-hills-and-mountains/ar-AA1SSK7w" target="_blank" rel="noopener">6</a>
+    </sup>, exact historical boundary maps are not publicly available. The 200-meter threshold provides a reasonable approximation of the terrain traditionally understood and protected as the Aravalli system prior to the November 2025 redefinition.</p>
+
+  <p>My analysis workflow processed the data in three stages: first, calculating prominence values for all terrain; second, applying the clustering algorithm to identify qualifying ranges; third, quantifying areas under both old and new definitions to measure the change. Each stage produced verifiable intermediate results that could be independently validated. The final area calculations converted pixel counts to square kilometers using precise geospatial coordinate transformations, accounting for the Earth's curvature at these latitudes. The results are unambiguous: of the 267,009 km² of elevated Aravalli terrain under the traditional understanding, only 9,224 km² meets the new legal criteria—a reduction of 257,785 km² or 96.5% of the protected landscape.</p>
+
+  <p>This methodology represents a statistically defensible implementation of the legal definition while maintaining transparency at every step. The prominence calculations account for local terrain relationships rather than arbitrary absolute elevation cutoffs. The clustering analysis ensures we capture the Supreme Court's intent regarding spatial continuity. And the comparative framework quantifies exactly what has been lost in the transition from ecological understanding to administrative classification. The numbers tell a clear story: in redefining the Aravalli Hills through a narrow technical lens, the Court has legally erased nearly the entire ancient mountain system that has protected northwestern India from desertification for over three billion years.</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

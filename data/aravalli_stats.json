@@ -1,0 +1,928 @@
+{
+  "metadata": {
+    "description": "Cumulative area statistics from west to east",
+    "pixelAreaKm2": 0.0009525967840277777,
+    "bounds": {
+      "left": 71.9998611,
+      "right": 76.9998611,
+      "bottom": 24.000138899999996,
+      "top": 29.000138899999996
+    },
+    "arrayShape": [
+      18000,
+      18000
+    ],
+    "numSlices": 100
+  },
+  "statistics": [
+    {
+      "percentage": 0,
+      "longitude": 71.9998611,
+      "oldArea": 0.0,
+      "newArea": 0.0,
+      "overlapArea": 0.0,
+      "onlyOldArea": 0.0,
+      "onlyNewArea": 0.0
+    },
+    {
+      "percentage": 1,
+      "longitude": 72.0498611,
+      "oldArea": 733.608119734768,
+      "newArea": 0.0,
+      "overlapArea": 0.0,
+      "onlyOldArea": 733.608119734768,
+      "onlyNewArea": 0.0
+    },
+    {
+      "percentage": 2,
+      "longitude": 72.0998611,
+      "oldArea": 1490.0938038347472,
+      "newArea": 0.00857337105625,
+      "overlapArea": 0.00857337105625,
+      "onlyOldArea": 1490.0852304636908,
+      "onlyNewArea": 0.0
+    },
+    {
+      "percentage": 3,
+      "longitude": 72.14986110000001,
+      "oldArea": 2307.7000027915165,
+      "newArea": 3.7437053612291664,
+      "overlapArea": 3.7437053612291664,
+      "onlyOldArea": 2303.956297430287,
+      "onlyNewArea": 0.0
+    },
+    {
+      "percentage": 4,
+      "longitude": 72.1998611,
+      "oldArea": 3163.6005924662027,
+      "newArea": 6.644362568593749,
+      "overlapArea": 6.638646987889583,
+      "onlyOldArea": 3156.961945478313,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 5,
+      "longitude": 72.2498611,
+      "oldArea": 4166.745019644846,
+      "newArea": 11.822678686568748,
+      "overlapArea": 11.816963105864582,
+      "onlyOldArea": 4154.928056538982,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 6,
+      "longitude": 72.2998611,
+      "oldArea": 5271.596300260568,
+      "newArea": 20.744700165772915,
+      "overlapArea": 20.73898458506875,
+      "onlyOldArea": 5250.857315675499,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 7,
+      "longitude": 72.3498611,
+      "oldArea": 6364.175276507659,
+      "newArea": 76.68880409815624,
+      "overlapArea": 76.68308851745208,
+      "onlyOldArea": 6287.492187990207,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 8,
+      "longitude": 72.39986110000001,
+      "oldArea": 7539.533960689981,
+      "newArea": 175.36830495559374,
+      "overlapArea": 175.36258937488958,
+      "onlyOldArea": 7364.171371315091,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 9,
+      "longitude": 72.4498611,
+      "oldArea": 8797.2151063512,
+      "newArea": 292.2090635005208,
+      "overlapArea": 292.2033479198166,
+      "onlyOldArea": 8505.011758431381,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 10,
+      "longitude": 72.4998611,
+      "oldArea": 10255.524565890075,
+      "newArea": 372.7530267836375,
+      "overlapArea": 372.7473112029333,
+      "onlyOldArea": 9882.777254687142,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 11,
+      "longitude": 72.5498611,
+      "oldArea": 11756.513219143748,
+      "newArea": 397.910155253027,
+      "overlapArea": 397.9044396723229,
+      "onlyOldArea": 11358.608779471424,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 12,
+      "longitude": 72.5998611,
+      "oldArea": 13305.518465893125,
+      "newArea": 444.4578445077604,
+      "overlapArea": 444.4521289270562,
+      "onlyOldArea": 12861.066336966069,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 13,
+      "longitude": 72.64986110000001,
+      "oldArea": 14873.014568817265,
+      "newArea": 508.91816368935207,
+      "overlapArea": 508.9124481086479,
+      "onlyOldArea": 14364.102120708618,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 14,
+      "longitude": 72.6998611,
+      "oldArea": 16559.309969274294,
+      "newArea": 588.8705643695874,
+      "overlapArea": 588.8648487888833,
+      "onlyOldArea": 15970.44512048541,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 15,
+      "longitude": 72.7498611,
+      "oldArea": 18301.918128619123,
+      "newArea": 732.2487641239603,
+      "overlapArea": 732.2430485432562,
+      "onlyOldArea": 17569.675080075867,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 16,
+      "longitude": 72.7998611,
+      "oldArea": 20100.91334940091,
+      "newArea": 919.5254814766854,
+      "overlapArea": 919.5197658959812,
+      "onlyOldArea": 19181.39358350493,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 17,
+      "longitude": 72.8498611,
+      "oldArea": 21964.87090786947,
+      "newArea": 1104.6131314197146,
+      "overlapArea": 1104.6074158390104,
+      "onlyOldArea": 20860.263492030463,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 18,
+      "longitude": 72.89986110000001,
+      "oldArea": 23974.22045569384,
+      "newArea": 1332.0532343806187,
+      "overlapArea": 1332.0475187999145,
+      "onlyOldArea": 22642.172936893927,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 19,
+      "longitude": 72.9498611,
+      "oldArea": 25995.407923753322,
+      "newArea": 1475.0827837120373,
+      "overlapArea": 1475.0770681313331,
+      "onlyOldArea": 24520.33085562199,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 20,
+      "longitude": 72.9998611,
+      "oldArea": 28077.84545983222,
+      "newArea": 1567.1893667596833,
+      "overlapArea": 1567.183651178979,
+      "onlyOldArea": 26510.661808653243,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 21,
+      "longitude": 73.0498611,
+      "oldArea": 30206.70017940644,
+      "newArea": 1630.3665380731895,
+      "overlapArea": 1630.3608224924853,
+      "onlyOldArea": 28576.33935691396,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 22,
+      "longitude": 73.0998611,
+      "oldArea": 32418.84043580821,
+      "newArea": 1691.6575677543208,
+      "overlapArea": 1691.6518521736166,
+      "onlyOldArea": 30727.188583634597,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 23,
+      "longitude": 73.14986110000001,
+      "oldArea": 34723.82077478133,
+      "newArea": 1798.9475909425853,
+      "overlapArea": 1798.941875361881,
+      "onlyOldArea": 32924.87889941945,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 24,
+      "longitude": 73.1998611,
+      "oldArea": 37157.269268645214,
+      "newArea": 1979.6428171144623,
+      "overlapArea": 1979.6371015337581,
+      "onlyOldArea": 35177.63216711146,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 25,
+      "longitude": 73.2498611,
+      "oldArea": 39743.65431839441,
+      "newArea": 2156.820103362925,
+      "overlapArea": 2156.814387782221,
+      "onlyOldArea": 37586.839930612194,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 26,
+      "longitude": 73.2998611,
+      "oldArea": 42418.563234686524,
+      "newArea": 2483.485545138514,
+      "overlapArea": 2483.4798295578103,
+      "onlyOldArea": 39935.08340512872,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 27,
+      "longitude": 73.3498611,
+      "oldArea": 45162.456352287576,
+      "newArea": 2797.493833444727,
+      "overlapArea": 2797.4881178640226,
+      "onlyOldArea": 42364.968234423555,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 28,
+      "longitude": 73.39986110000001,
+      "oldArea": 47963.510992511,
+      "newArea": 3030.249426460506,
+      "overlapArea": 3030.2437108798017,
+      "onlyOldArea": 44933.2672816312,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 29,
+      "longitude": 73.4498611,
+      "oldArea": 50817.155643390244,
+      "newArea": 3293.4319133549166,
+      "overlapArea": 3293.426197774212,
+      "onlyOldArea": 47523.72944561603,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 30,
+      "longitude": 73.4998611,
+      "oldArea": 53697.6854333051,
+      "newArea": 3464.476381507808,
+      "overlapArea": 3464.4706659271037,
+      "onlyOldArea": 50233.214767378,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 31,
+      "longitude": 73.5498611,
+      "oldArea": 56626.9338805455,
+      "newArea": 3687.749826135375,
+      "overlapArea": 3687.7441105546704,
+      "onlyOldArea": 52939.18976999082,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 32,
+      "longitude": 73.5998611,
+      "oldArea": 59589.39747245137,
+      "newArea": 4052.0066422022683,
+      "overlapArea": 4052.0009266215643,
+      "onlyOldArea": 55537.396545829804,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 33,
+      "longitude": 73.64986110000001,
+      "oldArea": 62568.81823970972,
+      "newArea": 4324.945625358691,
+      "overlapArea": 4324.939909777987,
+      "onlyOldArea": 58243.87832993174,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 34,
+      "longitude": 73.6998611,
+      "oldArea": 65485.36761922224,
+      "newArea": 4513.968452616539,
+      "overlapArea": 4513.962737035835,
+      "onlyOldArea": 60971.404882186405,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 35,
+      "longitude": 73.7498611,
+      "oldArea": 68371.73968521354,
+      "newArea": 4685.404438047666,
+      "overlapArea": 4685.398722466962,
+      "onlyOldArea": 63686.34096274658,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 36,
+      "longitude": 73.7998611,
+      "oldArea": 71273.84007670592,
+      "newArea": 4844.980593517647,
+      "overlapArea": 4844.974877936944,
+      "onlyOldArea": 66428.86519876898,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 37,
+      "longitude": 73.8498611,
+      "oldArea": 74219.52177106758,
+      "newArea": 4978.956663013666,
+      "overlapArea": 4978.9509474329625,
+      "onlyOldArea": 69240.57082363463,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 38,
+      "longitude": 73.89986110000001,
+      "oldArea": 77179.74390274064,
+      "newArea": 5076.035801273937,
+      "overlapArea": 5076.030085693233,
+      "onlyOldArea": 72103.7138170474,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 39,
+      "longitude": 73.9498611,
+      "oldArea": 80174.84536566088,
+      "newArea": 5140.681876828414,
+      "overlapArea": 5140.67616124771,
+      "onlyOldArea": 75034.16920441316,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 40,
+      "longitude": 73.9998611,
+      "oldArea": 83176.81886178108,
+      "newArea": 5186.9580759997,
+      "overlapArea": 5186.952360418995,
+      "onlyOldArea": 77989.86650136209,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 41,
+      "longitude": 74.0498611,
+      "oldArea": 86202.74540403567,
+      "newArea": 5222.809055966585,
+      "overlapArea": 5222.803340385881,
+      "onlyOldArea": 80979.9420636498,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 42,
+      "longitude": 74.0998611,
+      "oldArea": 89242.37028804458,
+      "newArea": 5245.108394083892,
+      "overlapArea": 5245.102678503187,
+      "onlyOldArea": 83997.26760954139,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 43,
+      "longitude": 74.14986110000001,
+      "oldArea": 92276.21290957443,
+      "newArea": 5286.3920335100875,
+      "overlapArea": 5286.386317929383,
+      "onlyOldArea": 86989.82659164505,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 44,
+      "longitude": 74.1998611,
+      "oldArea": 95305.71645275305,
+      "newArea": 5343.8593397001305,
+      "overlapArea": 5343.853624119427,
+      "onlyOldArea": 89961.86282863362,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 45,
+      "longitude": 74.2498611,
+      "oldArea": 98341.67383914345,
+      "newArea": 5393.167654434977,
+      "overlapArea": 5393.161938854272,
+      "onlyOldArea": 92948.51190028917,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 46,
+      "longitude": 74.2998611,
+      "oldArea": 101356.23590176458,
+      "newArea": 5436.551769769953,
+      "overlapArea": 5436.54605418925,
+      "onlyOldArea": 95919.68984757534,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 47,
+      "longitude": 74.3498611,
+      "oldArea": 104365.24241994128,
+      "newArea": 5460.425750371258,
+      "overlapArea": 5460.4200347905535,
+      "onlyOldArea": 98904.82238515072,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 48,
+      "longitude": 74.39986110000001,
+      "oldArea": 107381.9221052133,
+      "newArea": 5466.412821158872,
+      "overlapArea": 5466.407105578169,
+      "onlyOldArea": 101915.51499963514,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 49,
+      "longitude": 74.4498611,
+      "oldArea": 110423.93419676299,
+      "newArea": 5471.088166174881,
+      "overlapArea": 5471.082450594176,
+      "onlyOldArea": 104952.8517461688,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 50,
+      "longitude": 74.4998611,
+      "oldArea": 113474.98071621239,
+      "newArea": 5482.667932681523,
+      "overlapArea": 5482.662217100818,
+      "onlyOldArea": 107992.31849911157,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 51,
+      "longitude": 74.5498611,
+      "oldArea": 116543.23399137167,
+      "newArea": 5524.83177153616,
+      "overlapArea": 5524.826055955456,
+      "onlyOldArea": 111018.40793541622,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 52,
+      "longitude": 74.5998611,
+      "oldArea": 119596.46576784363,
+      "newArea": 5587.494540586291,
+      "overlapArea": 5587.488825005587,
+      "onlyOldArea": 114008.97694283805,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 53,
+      "longitude": 74.64986110000001,
+      "oldArea": 122661.39066983954,
+      "newArea": 5623.3740984566975,
+      "overlapArea": 5623.368382875993,
+      "onlyOldArea": 117038.02228696355,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 54,
+      "longitude": 74.6998611,
+      "oldArea": 125743.89479288789,
+      "newArea": 5651.371870536058,
+      "overlapArea": 5651.3661549553535,
+      "onlyOldArea": 120092.52863793254,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 55,
+      "longitude": 74.7498611,
+      "oldArea": 128822.78857412477,
+      "newArea": 5712.877234493595,
+      "overlapArea": 5712.871518912892,
+      "onlyOldArea": 123109.91705521189,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 56,
+      "longitude": 74.7998611,
+      "oldArea": 131893.10803170863,
+      "newArea": 5767.366723136768,
+      "overlapArea": 5767.361007556065,
+      "onlyOldArea": 126125.74702415256,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 57,
+      "longitude": 74.8498611,
+      "oldArea": 134950.9122727439,
+      "newArea": 5804.575153520893,
+      "overlapArea": 5804.569437940189,
+      "onlyOldArea": 129146.34283480373,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 58,
+      "longitude": 74.89986110000001,
+      "oldArea": 138014.29015756256,
+      "newArea": 5843.375373131129,
+      "overlapArea": 5843.369657550425,
+      "onlyOldArea": 132170.92050001214,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 59,
+      "longitude": 74.9498611,
+      "oldArea": 141083.2321601967,
+      "newArea": 5857.327105629999,
+      "overlapArea": 5857.321390049296,
+      "onlyOldArea": 135225.9107701474,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 60,
+      "longitude": 74.9998611,
+      "oldArea": 144153.5354236352,
+      "newArea": 5871.476025663164,
+      "overlapArea": 5871.47031008246,
+      "onlyOldArea": 138282.06511355276,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 61,
+      "longitude": 75.0498611,
+      "oldArea": 147222.13353883033,
+      "newArea": 5889.994507144665,
+      "overlapArea": 5889.98879156396,
+      "onlyOldArea": 141332.14474726637,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 62,
+      "longitude": 75.0998611,
+      "oldArea": 150292.21579981496,
+      "newArea": 5904.5120821332475,
+      "overlapArea": 5904.506366552543,
+      "onlyOldArea": 144387.7094332624,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 63,
+      "longitude": 75.14986110000001,
+      "oldArea": 153374.1531277768,
+      "newArea": 5941.166101189068,
+      "overlapArea": 5941.160385608364,
+      "onlyOldArea": 147432.99274216846,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 64,
+      "longitude": 75.1998611,
+      "oldArea": 156457.58222230247,
+      "newArea": 5976.7570222339145,
+      "overlapArea": 5976.75130665321,
+      "onlyOldArea": 150480.83091564925,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 65,
+      "longitude": 75.2498611,
+      "oldArea": 159543.48425807944,
+      "newArea": 6014.95424807986,
+      "overlapArea": 6014.948532499156,
+      "onlyOldArea": 153528.5357255803,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 66,
+      "longitude": 75.2998611,
+      "oldArea": 162628.88808573838,
+      "newArea": 6042.754832624926,
+      "overlapArea": 6042.749117044223,
+      "onlyOldArea": 156586.13896869414,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 67,
+      "longitude": 75.3498611,
+      "oldArea": 165715.29214002052,
+      "newArea": 6083.481202932466,
+      "overlapArea": 6083.475487351762,
+      "onlyOldArea": 159631.81665266876,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 68,
+      "longitude": 75.39986110000001,
+      "oldArea": 168800.48163340305,
+      "newArea": 6161.255967364414,
+      "overlapArea": 6161.25025178371,
+      "onlyOldArea": 162639.23138161935,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 69,
+      "longitude": 75.44958332222222,
+      "oldArea": 171869.73037220165,
+      "newArea": 6271.069419433568,
+      "overlapArea": 6271.063703852864,
+      "onlyOldArea": 165598.6666683488,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 70,
+      "longitude": 75.4998611,
+      "oldArea": 174973.286884177,
+      "newArea": 6373.949872108568,
+      "overlapArea": 6373.944156527864,
+      "onlyOldArea": 168599.34272764914,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 71,
+      "longitude": 75.5498611,
+      "oldArea": 178059.700464427,
+      "newArea": 6438.590232082342,
+      "overlapArea": 6438.584516501637,
+      "onlyOldArea": 171621.11594792537,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 72,
+      "longitude": 75.5998611,
+      "oldArea": 181146.11404467703,
+      "newArea": 6495.345948474716,
+      "overlapArea": 6495.340232894012,
+      "onlyOldArea": 174650.773811783,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 73,
+      "longitude": 75.64986110000001,
+      "oldArea": 184232.52762492702,
+      "newArea": 6561.566666513191,
+      "overlapArea": 6561.560950932487,
+      "onlyOldArea": 177670.96667399452,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 74,
+      "longitude": 75.6998611,
+      "oldArea": 187318.94120517702,
+      "newArea": 6659.083046697331,
+      "overlapArea": 6659.077331116627,
+      "onlyOldArea": 180659.8638740604,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 75,
+      "longitude": 75.7498611,
+      "oldArea": 190405.35478542701,
+      "newArea": 6745.02251816518,
+      "overlapArea": 6745.016802584477,
+      "onlyOldArea": 183660.33798284255,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 76,
+      "longitude": 75.7998611,
+      "oldArea": 193491.768365677,
+      "newArea": 6841.447222434825,
+      "overlapArea": 6841.44150685412,
+      "onlyOldArea": 186650.3268588229,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 77,
+      "longitude": 75.8498611,
+      "oldArea": 196578.181945927,
+      "newArea": 6927.4724276132365,
+      "overlapArea": 6927.466712032533,
+      "onlyOldArea": 189650.71523389447,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 78,
+      "longitude": 75.89986110000001,
+      "oldArea": 199664.59457358022,
+      "newArea": 7018.224418033995,
+      "overlapArea": 7018.218702453291,
+      "onlyOldArea": 192646.37587112695,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 79,
+      "longitude": 75.9498611,
+      "oldArea": 202751.00815383022,
+      "newArea": 7085.3710601465455,
+      "overlapArea": 7085.365344565841,
+      "onlyOldArea": 195665.6428092644,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 80,
+      "longitude": 75.9998611,
+      "oldArea": 205837.42173408024,
+      "newArea": 7127.294844611608,
+      "overlapArea": 7127.2891290309035,
+      "onlyOldArea": 198710.13260504932,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 81,
+      "longitude": 76.0498611,
+      "oldArea": 208923.83531433024,
+      "newArea": 7206.041257763264,
+      "overlapArea": 7206.03554218256,
+      "onlyOldArea": 201717.79977214767,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 82,
+      "longitude": 76.0998611,
+      "oldArea": 212010.18888098284,
+      "newArea": 7275.922805242758,
+      "overlapArea": 7275.9170896620535,
+      "onlyOldArea": 204734.2717913208,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 83,
+      "longitude": 76.14986110000001,
+      "oldArea": 215094.58486124428,
+      "newArea": 7351.11126940607,
+      "overlapArea": 7351.105553825366,
+      "onlyOldArea": 207743.4793074189,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 84,
+      "longitude": 76.1998611,
+      "oldArea": 218177.19472253564,
+      "newArea": 7417.637771012218,
+      "overlapArea": 7417.632055431514,
+      "onlyOldArea": 210759.56266710412,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 85,
+      "longitude": 76.2498611,
+      "oldArea": 221260.84577211196,
+      "newArea": 7491.866017617231,
+      "overlapArea": 7491.860302036526,
+      "onlyOldArea": 213768.98547007542,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 86,
+      "longitude": 76.2998611,
+      "oldArea": 224336.95034996522,
+      "newArea": 7563.202180385935,
+      "overlapArea": 7563.196464805231,
+      "onlyOldArea": 216773.75388516,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 87,
+      "longitude": 76.3498611,
+      "oldArea": 227411.6450845781,
+      "newArea": 7671.383834164049,
+      "overlapArea": 7671.378118583345,
+      "onlyOldArea": 219740.26696599476,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 88,
+      "longitude": 76.39986110000001,
+      "oldArea": 230493.67195663764,
+      "newArea": 7826.753322235764,
+      "overlapArea": 7826.74760665506,
+      "onlyOldArea": 222666.92434998258,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 89,
+      "longitude": 76.4498611,
+      "oldArea": 233576.76383190174,
+      "newArea": 8055.136496012856,
+      "overlapArea": 8055.130780432151,
+      "onlyOldArea": 225521.6330514696,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 90,
+      "longitude": 76.4998611,
+      "oldArea": 236650.27258351853,
+      "newArea": 8331.86205138579,
+      "overlapArea": 8331.856335805085,
+      "onlyOldArea": 228318.41624771344,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 91,
+      "longitude": 76.5498611,
+      "oldArea": 239710.5535761923,
+      "newArea": 8600.808701420352,
+      "overlapArea": 8600.802985839648,
+      "onlyOldArea": 231109.75059035263,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 92,
+      "longitude": 76.5998611,
+      "oldArea": 242781.5017476536,
+      "newArea": 8708.59883792023,
+      "overlapArea": 8708.593122339526,
+      "onlyOldArea": 234072.90862531407,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 93,
+      "longitude": 76.64986110000001,
+      "oldArea": 245852.16223488614,
+      "newArea": 8774.31944264709,
+      "overlapArea": 8774.313727066386,
+      "onlyOldArea": 237077.84850781976,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 94,
+      "longitude": 76.6998611,
+      "oldArea": 248908.54424892287,
+      "newArea": 8832.93272276832,
+      "overlapArea": 8832.927007187616,
+      "onlyOldArea": 240075.61724173525,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 95,
+      "longitude": 76.7498611,
+      "oldArea": 251966.79144746275,
+      "newArea": 8909.02424868289,
+      "overlapArea": 8909.018533102188,
+      "onlyOldArea": 243057.77291436054,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 96,
+      "longitude": 76.7998611,
+      "oldArea": 255020.14134593593,
+      "newArea": 8970.521039269372,
+      "overlapArea": 8970.515323688667,
+      "onlyOldArea": 246049.62602224725,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 97,
+      "longitude": 76.8498611,
+      "oldArea": 258057.05704469106,
+      "newArea": 9011.758954049934,
+      "overlapArea": 9011.753238469231,
+      "onlyOldArea": 249045.3038062218,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 98,
+      "longitude": 76.89986110000001,
+      "oldArea": 261093.8708155903,
+      "newArea": 9070.197908959686,
+      "overlapArea": 9070.192193378982,
+      "onlyOldArea": 252023.6786222113,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 99,
+      "longitude": 76.9498611,
+      "oldArea": 264119.8688026037,
+      "newArea": 9160.309754341579,
+      "overlapArea": 9160.304038760874,
+      "onlyOldArea": 254959.56476384282,
+      "onlyNewArea": 0.0057155807041666664
+    },
+    {
+      "percentage": 100,
+      "longitude": 76.9998611,
+      "oldArea": 267008.8690831221,
+      "newArea": 9223.704117721843,
+      "overlapArea": 9223.698402141139,
+      "onlyOldArea": 257785.17068098098,
+      "onlyNewArea": 0.0057155807041666664
+    }
+  ]
+}

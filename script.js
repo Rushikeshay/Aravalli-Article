@@ -6,7 +6,8 @@ const oldEl = d3.select("#old");
 const newEl = d3.select("#new");
 const lostEl = d3.select("#lost");
 
-const width = 600; // Fixed square size
+// Get actual container width dynamically
+let width = container.node().getBoundingClientRect().width;
 
 // ---------- helpers ----------
 function format(value) {
@@ -83,6 +84,14 @@ d3.json("data/aravalli_stats.json").then(data => {
       updateFromX(x);
     }
   });
+  
+  // Update width on window resize
+   window.addEventListener('resize', () => {
+     width = container.node().getBoundingClientRect().width;
+     // Re-update slider position to maintain current percentage
+     const currentLeft = parseFloat(slider.style("left"));
+     updateFromX((currentLeft / 100) * width);
+   });
 
 }).catch(err => {
   console.error("Failed to load aravalli_stats.json", err);

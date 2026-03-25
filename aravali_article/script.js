@@ -33,7 +33,7 @@ function interpolate(stats, pct) {
 }
 
 // ---------- main ----------
-d3.json("data/aravalli_stats.json").then(data => {
+d3.json("aravali_article/data/aravalli_stats.json").then(data => {
   const stats = data.statistics;
 
   function updateFromX(x) {
